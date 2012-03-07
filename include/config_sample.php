@@ -1,4 +1,5 @@
 <?php
+	//enter your database details here then save the file as config.php
     define('DB_HOST', '<your db host>');
     define('DB_USER', '<your db user>');
     define('DB_PASSWORD', '<your password>');
