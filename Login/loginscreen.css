@@ -1,0 +1,155 @@
+body {
+	font-family: helvetica;
+	margin-top:6%;
+	margin-bottom:auto;
+        margin-left:auto;
+        margin-right:auto;
+	color: #333333;
+	background-color: #ffffff;
+	height:90%;
+	width:600px;
+	font-size: 12px;
+	text-decoration: none;
+        background-image:url('../images/BACKGROUND.jpg');
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-position:top;
+}
+#big {
+  position: absolute;
+  top: 20%;
+  left: auto;
+  right: auto;
+  width: 590px;
+  height: 149px;
+  padding: 5px;
+  background-image:url('../images/rectangle.gif');
+  text-align: left;
+  opacity: 0.85;
+}
+#cright {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  padding: 5px;
+}
+
+#custlogo {
+  position: absolute;
+  top: -5px;
+  left: 15px;
+  width: 80px;
+  padding: 5px;
+}
+#softrader {
+    position: absolute;
+    bottom: 40px;
+    right: 6px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+#formtable {
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+  padding: 5px;
+}
+#title {
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  padding: 5px;
+}
+#title2 {
+  position: absolute;
+  bottom: 8px;
+  right: 6px;
+  padding: 5px;
+  color: #000099;
+}
+#frames
+{
+	font-family: "Helvetica", Sans-Serif;
+	font-size: 12px;
+	margin: auto;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+	color: #703;
+}
+
+#searchframe
+{
+font-family: "Helvetica", Sans-Serif;
+	font-size: 12px;
+	background: #e8edff;
+	margin: auto;
+	width: 600px;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+#bottomrow
+{
+font-family: "Helvetica", Sans-Serif;
+	font-size: 12px;
+	background: #ffffff;
+	margin: 0px;
+	width: 850px;
+	border-collapse: collapse;
+	text-align: left;
+	valign: bottom;
+}
+#textfield {
+	font-size: 11px;
+	color: #333333;
+	background: #F7F7F7;
+	border: 1px solid #CCCCCC;
+	padding-left: 1px;
+}
+#dropdown
+{
+color:#666666;
+font-size:95%;
+background-color: #EBEBEB;
+width: 200px;
+float:right;
+
+}
+
+#button
+{
+width: 100%;
+}
+#button2
+{
+width: 50%;
+}
+label
+{
+width: 9em;
+float: left;
+text-align: right;
+margin-right: 0.5em;
+display: block
+}
+
+.submit input
+{
+margin-left: 4.5em;
+}
+#helplink {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+}
+img
+{
+    border-style: none
+}
+#loggedmessage{
+    border: 1px solid #000;
+    background-color: red;
+}

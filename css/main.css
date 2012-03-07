@@ -1,0 +1,122 @@
+body{
+	font-family: "Helvetica", Sans-Serif;
+	font-size: 12px;
+	min-width: 930px;
+}
+table{
+	font-family: "Helvetica", Sans-Serif;
+	font-size: 12px;
+}
+#popupMenu{
+	border: 1px black solid;
+	width: 500px;
+	height:300px;
+	position:absolute;
+	margin-left:215px;
+	top:120px;
+	background-color: white;
+	display:none;
+}
+#popupInfo{
+	border: 1px black solid;
+	width: 250px;
+	height:150px;
+	position:absolute;
+	margin-left:15px;
+	top:15px;
+	background-color: white;
+	display:none;
+}
+#loginbox{
+	border: 1px black solid;
+	padding:5px;
+	font-size: 12px;
+	font-family:arial, helvetica;
+	position: absolute;
+	top: 100px;
+	right: 0;
+	left: 0;
+	width: 245px;
+	height: 120px;
+	margin: auto;
+}
+.linktext:hover{
+	cursor:pointer;
+	color: #CC0000;
+	text-decoration:none;
+}
+.linktext{
+	color: #000066;
+	font-family: "Helvetica", Sans-Serif;
+    font-size: 12px;
+	text-decoration:none;
+}
+#registerformtab{
+	font-size: 12px;
+	text-align:right;
+	margin-left:20px;
+}
+#registerbox{
+	border: 1px black solid;
+	font-size: 12px;
+	font-family:arial, helvetica;
+	position: absolute;
+	top: 100px;
+	right: 0;
+	left: 0;
+	width: 270px;
+	height: 190px;
+	margin: auto;
+	padding:3px;
+}
+#regresult{
+	overflow-y:auto;
+	font-size: 12px;
+	font-family:arial, helvetica;
+	position: absolute;
+	top: 320px;
+	right: 0;
+	left: 0;
+	width: 291px;
+	height: 140px;
+	margin: auto;
+	padding:3px;
+}
+#reginstruct{
+	font-size: 10px;
+	width: 289px;
+	height: 44px;
+}
+#topbar{
+	height:25px;
+	text-align:left;
+	font-size:16px;
+	border-bottom:grey 1px dotted;
+}
+#outer{
+	border:0px solid orange;
+	width:950px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#topmenu{
+	float:right;
+	font-size:13px;
+	font-family: arial, sans-serif;
+	margin-right:0px;
+}
+#mainleft{
+	float:left;
+	width:550px;
+}
+#mainright{
+	float:right;
+	width:400px;
+}
+#txt_content{
+	height:100%;
+	width:100%;
+}
+#set_upd_but{
+	width:100%;
+}
