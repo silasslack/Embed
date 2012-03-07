@@ -1,7 +1,7 @@
 <?php
     define('DB_HOST', 'localhost');
     define('DB_USER', 'root');
-    define('DB_PASSWORD', '');
+    define('DB_PASSWORD', 'd066er');
     define('DB_DATABASE', 'P-EMBED');
 
 	define('MAX_LOGIN_ATTEMPTS',5);		// max failed attempts before account is locked
