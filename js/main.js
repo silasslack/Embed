@@ -9,8 +9,28 @@ function savePost(acc){
 		success: function(returned){
 			$("#result_sent").html(returned);
 			showContent(acc);
+			clearResult();
 		}
 	});
+}
+function editPostSend(acc,id){
+	var h1 = $("#ed_txt_head1_"+id).val();
+	var h2 = $("#ed_txt_head2_"+id).val();
+	var cont = $("#ed_txt_content_"+id).val();
+	var datetime = $("#ed_txt_date_"+id).val();
+	$.ajax({
+		type: "POST",
+		url: "include/editPost.php",
+		data: "h1="+h1+"&h2="+h2+"&cont="+cont+"&id="+id+"&datetime="+datetime,
+		success: function(returned){
+			$("#result_sent").html(returned);
+			showContent(acc);
+			clearResult();
+		}
+	});
+}
+function clearResult(){
+	setTimeout('$(\'#result_sent\').html(\'\')',5000);
 }
 function deletePost(acc,postid){
 	$.ajax({
@@ -20,6 +40,18 @@ function deletePost(acc,postid){
 		success: function(returned){
 			$("#result_sent").html(returned);
 			showContent(acc);
+			clearResult();
+		}
+	});
+}
+function editPost(acc,postid){
+	showContent(acc);
+	$.ajax({
+		type: "POST",
+		url: "include/editPostTools.php",
+		data: "id="+postid+"&acc="+acc,
+		success: function(returned){
+			$("#outer"+postid).html(returned);
 		}
 	});
 }
@@ -33,7 +65,7 @@ function sendRegForm(){
 		url: "register-exec.php",
 		data: "login="+login+"&email="+email+"&password="+password+"&cpassword="+cpassword,
 		success: function(returned){
-			$("#regresult").html(returned);
+			$("#registerbox").html(returned);
 		}
 	});
 }

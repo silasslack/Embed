@@ -120,3 +120,9 @@ table{
 #set_upd_but{
 	width:100%;
 }
+.edborder{
+	border:1px solid orange;
+}
+hr {
+	color: grey;background-color: grey;height: 1px;border: 0;
+}

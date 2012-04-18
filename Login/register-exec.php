@@ -81,12 +81,12 @@
 	//Check whether the query was successful or not
 	if($result) {
 		echo " Registration successful. Login <a href='index.php'>here</a>";
-		$message = "Thanks ".$displname.", you have successfully registered for Softrader CRM. Your username is: ".$login." and your password is: ".$cpassword.". Please log in here: http://softrader.com/CRM";
+		$message = "Thanks ".$displname.", you have successfully registered for Embed Alpha. Your username is: ".$login." and your password is: ".$cpassword.". Please log in here: http://demo.softrader-online.com/embed";
 		//$message = wordwrap($message, 70);
 		$to      = $email;
-		$subject = 'Softrader CRM Registration';
-		$headers = 'From: webmaster@softrader.com' . "\r\n" .
-			'Reply-To: webmaster@softrader.com' . "\r\n" .
+		$subject = 'Embed Alpha Registration';
+		$headers = 'From: embed@silasslack.com' . "\r\n" .
+			'Reply-To: embed@silasslack.com' . "\r\n" .
 			'X-Mailer: PHP/' . phpversion();
 
 		mail($to, $subject, $message, $headers);
